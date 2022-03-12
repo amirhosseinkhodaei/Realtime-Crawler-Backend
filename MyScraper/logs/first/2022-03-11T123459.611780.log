@@ -1,0 +1,2 @@
+2022-03-11 12:35:39 [scrapy] DEBUG: Retrying <GET https://polymer-additives.specialchem.com/selectors?q=&indexpage=1> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].

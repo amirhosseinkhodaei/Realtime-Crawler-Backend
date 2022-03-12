@@ -1,0 +1,28 @@
+2022-03-11 19:31:46 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-birla-carbon-raven-5100-ultra> (referer: None)
+2022-03-11 19:31:46 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-birla-carbon-raven-5100-ultra>
+{'products': [{'productName': 'Raven 5100 Ultra', 'description': '\nRaven 5100 Ultra by Birla Carbon is a next generation, piano carbon black for high end plastic applications. It offers ultra high jetness with attractive blue undertone. It is easy to handle and meets plastic industry requirements. This product is compatible with various engineering resins. It displays good balance of dispersion and color performance. Raven 5100 Ultra is used in automotive-interior trim: piano black color with high gloss for fashion and luxurious finishing & exterior body: a black to compete with high-end coatings. It is also used in consumer electronics and household appliances.\n'}], 'attributes': {None: 'Test Condition', 'Surface Area': None, 'Oil Absorption': None, 'Particle Size': None}}
+2022-03-11 19:31:46 [scrapy] INFO: Closing spider (finished)
+2022-03-11 19:31:46 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 273,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11974,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.087747,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 16, 1, 46, 575722),
+ 'httpcompression/response_bytes': 42727,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 66625536,
+ 'memusage/startup': 66625536,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 16, 1, 45, 487975)}
+2022-03-11 19:31:46 [scrapy] INFO: Spider closed (finished)

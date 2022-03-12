@@ -1,0 +1,28 @@
+2022-03-11 20:05:33 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-basf-tinuvin-nor-356> (referer: None)
+2022-03-11 20:05:34 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-basf-tinuvin-nor-356>
+{'products': [{'productName': 'Tinuvin® NOR® 356', 'description': '\nTinuvin® NOR® 356 by BASF is a high molecular hindered amine NOR light stabilizer. It has been designed for agricultural plastic applications in contact with high concentration of chemicals (fungicides, herbicides, insecticides or soil disinfection agents), such as greenhouse film covers, mulch films and nonwovens where it offers excellent thermal and light stabilization. This HALS of the triazine type is compatible with polyolefins (PE, PP) as well as olefin copolymers (EVA, EBA, PE-co-PP). Its long-term thermal stabilization effect is especially useful where the plastic substrate is in contact with surfaces such as iron, aluminum, wood. It may give rise to synergistic effects when combined with UV absorbers like Chimassorb® 81, Tinuvin® 326, Tinuvin® 329, Tinuvin® 1600 and others. During the plastic processing of the compound or masterbatch containing Tinuvin® NOR® 356, the temperature of 250°C should not be exceeded.\n'}], 'attributes': {None: 'Test Condition', 'Softening Point': None, 'Density': None, 'Bulk Density': None}}
+2022-03-11 20:05:34 [scrapy] INFO: Closing spider (finished)
+2022-03-11 20:05:34 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 264,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 12923,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.050743,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 16, 35, 34, 124077),
+ 'httpcompression/response_bytes': 46700,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 66719744,
+ 'memusage/startup': 66719744,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 16, 35, 33, 73334)}
+2022-03-11 20:05:34 [scrapy] INFO: Spider closed (finished)

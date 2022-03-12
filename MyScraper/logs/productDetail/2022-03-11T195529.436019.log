@@ -1,0 +1,28 @@
+2022-03-11 19:55:30 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-basf-chimassorb-2020> (referer: None)
+2022-03-11 19:55:30 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-basf-chimassorb-2020>
+{'products': [{'productName': 'Chimassorb® 2020', 'description': '\nChimassorb® 2020 by BASF is a high molecular weight hindered amine light stabilizer (HALS). Offers an optimal combination of exceptional levels of UV- and long-term thermal stability and ancillary properties such as minimal pigment interaction and improved melt flow control. Chimassorb® 2020 is a highly effective light stabilizer for polyolefins (PP, PE), olefin copolymers such as EVA as well as blends of polypropylene with elastomers. In certain instances, it is effective in polyacetals, polyamides, polyurethanes, flexible and rigid PVC as well as PVC blends and in certain styrenic elastomer. Chimassorb® 2020 shows excellent polymer compatibility and high extraction resistance. Its recommended dosage level is 0.05-1.4%.\n'}], 'attributes': {None: 'Test Condition', 'Melting Point': None, 'Molecular Weight': None, 'Specific Gravity': None}}
+2022-03-11 19:55:30 [scrapy] INFO: Closing spider (finished)
+2022-03-11 19:55:30 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 264,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 13627,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.888445,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 16, 25, 30, 338669),
+ 'httpcompression/response_bytes': 52813,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 66625536,
+ 'memusage/startup': 66625536,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 16, 25, 29, 450224)}
+2022-03-11 19:55:30 [scrapy] INFO: Spider closed (finished)

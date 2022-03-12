@@ -1,0 +1,26 @@
+2022-03-11 18:34:02 [scrapy] DEBUG: Crawled (403) <GET http://application.com/> (referer: None)
+2022-03-11 18:34:02 [scrapy] INFO: Ignoring response <403 http://application.com/>: HTTP status code is not handled or not allowed
+2022-03-11 18:34:02 [scrapy] INFO: Closing spider (finished)
+2022-03-11 18:34:02 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 215,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 449,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'elapsed_time_seconds': 0.419854,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 15, 4, 2, 581315),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 8,
+ 'memusage/max': 55357440,
+ 'memusage/startup': 55357440,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 15, 4, 2, 161461)}
+2022-03-11 18:34:02 [scrapy] INFO: Spider closed (finished)

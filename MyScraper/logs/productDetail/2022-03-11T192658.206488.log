@@ -1,0 +1,28 @@
+2022-03-11 19:26:59 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-basf-tinuvin-nor-371> (referer: None)
+2022-03-11 19:26:59 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-basf-tinuvin-nor-371>
+{'products': [{'productName': 'Tinuvin® NOR® 371', 'description': '\nTinuvin® NOR® 371 by BASF is a high molecular weight hindered amine NOR stabilizer (NOR HALS). This high-performing light stabilizer is particularly well suited for applications in contact with chemicals, like in agriculture, such as greenhouse and mulch films or nonwovens. Tinuvin® NOR™ 371 provides outstanding stabilization to agricultural films even in presence of chemicals such as pesticides, insecticides or soil disinfection agents. It shows outstanding performance also as long term thermal stabilizer, this is especially useful where films are in contact with frames (wood, iron, aluminum). Tinuvin® NOR® 371 areas of application include polyolefins (PP, PE) as well as olefin copolymers, such as EVA and EBA. Recommended dosage when used in greenhouse films is 0.2–1.6% and 0.2–1.0% in mulch films.\n'}], 'attributes': {None: 'Test Condition', 'Molecular Weight': None, 'Melting Point': None, 'Specific Gravity': None}}
+2022-03-11 19:26:59 [scrapy] INFO: Closing spider (finished)
+2022-03-11 19:26:59 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 264,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 13025,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.915086,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 15, 56, 59, 134547),
+ 'httpcompression/response_bytes': 47823,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 59731968,
+ 'memusage/startup': 59731968,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 15, 56, 58, 219461)}
+2022-03-11 19:26:59 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,28 @@
+2022-03-11 19:35:43 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/m-bruggemann-ap-nylon-caprolactam-flakes> (referer: None)
+2022-03-11 19:35:44 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/m-bruggemann-ap-nylon-caprolactam-flakes>
+{'products': [{'productName': 'AP-NYLON® Caprolactam (Flakes)', 'description': '\nAP-NYLON® Caprolactam (Flakes) by Brüggemann is caprolactam with low moisture content. It is specifically used as raw material in the anionic polymerization of polyamide 6. It is suitable for use in applications where reduced moisture content is necessary or improved flowability of the flakes is the key factor for the product handling. AP-NYLON® Caprolactam (Flakes) has a shelf life of 12 months.\n'}], 'attributes': {None: 'Test Condition', 'Solidification Point': None, 'Moisture Content': None, 'Bulk Density': None}}
+2022-03-11 19:35:44 [scrapy] INFO: Closing spider (finished)
+2022-03-11 19:35:44 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 282,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11590,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.131334,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 16, 5, 44, 57270),
+ 'httpcompression/response_bytes': 40677,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 66625536,
+ 'memusage/startup': 66625536,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 16, 5, 42, 925936)}
+2022-03-11 19:35:44 [scrapy] INFO: Spider closed (finished)

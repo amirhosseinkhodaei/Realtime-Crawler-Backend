@@ -1,0 +1,28 @@
+2022-03-11 11:38:14 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com/selectors?q=Antioxidantr&indexpage=1> (referer: None)
+2022-03-11 11:38:14 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com/selectors?q=Antioxidantr&indexpage=1>
+{'paginate': {'count': 1, 'total': '0'}, 'products': []}
+2022-03-11 11:38:14 [scrapy] INFO: Closing spider (finished)
+2022-03-11 11:38:14 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 269,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 12805,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.192885,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 8, 8, 14, 402956),
+ 'httpcompression/response_bytes': 38629,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 74133504,
+ 'memusage/startup': 74133504,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 8, 8, 13, 210071)}
+2022-03-11 11:38:14 [scrapy] INFO: Spider closed (finished)

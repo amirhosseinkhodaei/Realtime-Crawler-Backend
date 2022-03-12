@@ -1,0 +1,10 @@
+2022-03-08 14:56:20 [scrapy] INFO: Closing spider (finished)
+2022-03-08 14:56:20 [scrapy] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.001968,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 8, 11, 26, 20, 142477),
+ 'log_count/INFO': 7,
+ 'memusage/max': 55091200,
+ 'memusage/startup': 55091200,
+ 'start_time': datetime.datetime(2022, 3, 8, 11, 26, 20, 140509)}
+2022-03-08 14:56:20 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,61 @@
+2022-03-11 19:18:29 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com/product/a-kafrit-group-uva-06950-ld> (referer: None)
+2022-03-11 19:18:29 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com/product/a-kafrit-group-uva-06950-ld>
+{'products': [{'productName': 'UVA 06950 LD', 'description': '\nBlend of poly-HALS, UVA and antioxidant. Is an UV light stabilizer masterbatch. Provides good UV blockage and antioxidant properties. It is specifically designed for films over 100 μ. Provides cost effective stabilization of greenhouse films. Its dosage rate is 2-5%.\n'}], 'attributes': {'Product Type': '\n', 'Chemical Composition': '\nBlend of poly-HALS, UVA and antioxidant\n', 'Masterbatch': '\nYes\n'}}
+2022-03-11 19:18:30 [scrapy] DEBUG: Crawled (404) <GET https://polymer-additives.specialchem.com/undefined> (referer: None)
+2022-03-11 19:18:30 [scrapy] ERROR: Spider error processing <GET https://polymer-additives.specialchem.com/undefined> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/scrapy/utils/defer.py", line 120, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python3.9/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/usr/local/lib/python3.9/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/usr/local/lib/python3.9/site-packages/scrapy/core/spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "/usr/local/lib/python3.9/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python3.9/site-packages/scrapy/core/spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "/usr/local/lib/python3.9/site-packages/scrapy/spidermiddlewares/referer.py", line 342, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python3.9/site-packages/scrapy/core/spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "/usr/local/lib/python3.9/site-packages/scrapy/spidermiddlewares/urllength.py", line 40, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.9/site-packages/scrapy/core/spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "/usr/local/lib/python3.9/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python3.9/site-packages/scrapy/core/spidermw.py", line 56, in _evaluate_iterable
+    for r in iterable:
+  File "/Users/amirhosseinkhodaei/Desktop/Projects/scrapyAPI/MyScraper/MyScraper/spiders/productDetail.py", line 17, in parse
+    product_attr['productName'] = response.css('.row_product_header h1::text').get()
+AttributeError: 'Failure' object has no attribute 'css'
+2022-03-11 19:18:30 [scrapy] INFO: Closing spider (finished)
+2022-03-11 19:18:30 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 712,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 18330,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'elapsed_time_seconds': 1.326438,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 15, 48, 30, 140794),
+ 'httpcompression/response_bytes': 54360,
+ 'httpcompression/response_count': 2,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 6,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 16,
+ 'memusage/max': 68849664,
+ 'memusage/startup': 68849664,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 15, 48, 28, 814356)}
+2022-03-11 19:18:30 [scrapy] INFO: Spider closed (finished)

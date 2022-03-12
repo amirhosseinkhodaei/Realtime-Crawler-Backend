@@ -1,0 +1,28 @@
+2022-03-11 19:20:26 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-basf-tinuvin-1600> (referer: None)
+2022-03-11 19:20:26 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-basf-tinuvin-1600>
+{'products': [{'productName': 'Tinuvin® 1600', 'description': '\nTinuvin® 1600 by BASF is 2-hydroxyphenyl-s-triazine derivative. It acts as an ultraviolet light absorber (UVA). It exhibits very low volatility, excellent thermal stability and high extinction coefficient. Tinuvin® 1600 light stabilizer allows polycarbonates, polyesters, and acrylics to achieve a higher resistance to weathering than conventional hydroxyphenyl triazine, benzotriazole or cyanoacrylate UV absorbers. The use of Tinuvin® 1600 UV stabilizer is indicated in polymer blends & alloys, such as PC/ABS, PC/PBT, PPE/IPS, PPE/PA and copolymers as well as in reinforced, filled and/or flame retarded compounds, which can be transparent, translucent and/or pigmented. Tinuvin® 1600 is particularly suitable for processing and aging conditions where high loadings, very good compatibility, and outstanding durability are required. It is suitable for thin layers and films in general. Tinuvin® 1600 (0.2 – 6 % by weight) can be readily incorporated into the polymer by using conventional techniques, e. g. powder, solution, or melt blending.\n'}], 'attributes': {None: 'Test Condition', 'Specific Gravity': None, 'Melting Point': None, 'Vapor Pressure': None}}
+2022-03-11 19:20:26 [scrapy] INFO: Closing spider (finished)
+2022-03-11 19:20:26 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 261,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 13333,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.126623,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 15, 50, 26, 845569),
+ 'httpcompression/response_bytes': 49753,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 57942016,
+ 'memusage/startup': 57942016,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 15, 50, 25, 718946)}
+2022-03-11 19:20:26 [scrapy] INFO: Spider closed (finished)

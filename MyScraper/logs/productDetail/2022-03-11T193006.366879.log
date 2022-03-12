@@ -1,0 +1,28 @@
+2022-03-11 19:30:07 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-byk-byk-max-hs-4342> (referer: None)
+2022-03-11 19:30:07 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-byk-byk-max-hs-4342>
+{'products': [{'productName': 'BYK-MAX HS 4342', 'description': '\nBYK-MAX HS 4342 by BYK is a non-adhesive granulate, dust-free, easy to handle, long-term thermal stabilizer based on organic stabilizers, carbon black and SCONA coupling agents for use in PP-GF. The stabilizers inhibit thermo-oxidative decomposition by intercepting radicals and decomposing reactive peroxides. The SCONA coupling agent contained in the product ensures a strong and stable interaction of the glass fibers and the polymer matrix by increasing the reactivity between the polypropylene and the glass fibers. BYK-MAX HS 4342 also has a very positive influence on long-term heat aging (LTHA), which makes it possible to comply with the automotive standard specifications more easily. Depending on the glass fiber content, adding approx. 3.5% of the additive can achieve a long-term heat aging duration of 1000 hours at 150°C. It is used in long fiber-reinforced pellets for automotive parts, underbody paneling, sheets and partitions, structural components and door modules. The recommended level is 3.5% additive (as supplied) based on the total formulation for 20-40% glass fiber content. It can be added via volumetric or gravimetric dosing units during processing in all extruders and injection molding machines. The shelf life of this product is 12 months.\n'}], 'attributes': {None: 'Test Condition', 'Bulk Density': None, 'Active Content': None, 'Processing Temperature': None}}
+2022-03-11 19:30:07 [scrapy] INFO: Closing spider (finished)
+2022-03-11 19:30:07 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 263,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 12265,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.296984,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 16, 0, 7, 681264),
+ 'httpcompression/response_bytes': 44108,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 66138112,
+ 'memusage/startup': 66138112,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 16, 0, 6, 384280)}
+2022-03-11 19:30:07 [scrapy] INFO: Spider closed (finished)

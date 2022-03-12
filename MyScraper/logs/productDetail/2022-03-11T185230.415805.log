@@ -1,0 +1,28 @@
+2022-03-11 18:52:31 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com/product/a-plastiblends-polynox-04013> (referer: None)
+2022-03-11 18:52:31 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com/product/a-plastiblends-polynox-04013>
+{'products': [{'productName': 'POLYNOX 04013', 'description': '\nAntioxidant masterbatch carried in a PE (polyethylene) resin. It improves processability and reduces thermal degradation during melting and high temperature processing. Prevents embrittlement occurring due to high melting temperature. Minimizes gel formation occurring due to oxidation during melting. Improves processability of regrind. Prevents yellowing of plastics. Increases OIT in HDPE (high-density polyethylene) pipes. Applications include reprocessed PE (polyethylene), PP (polypropylene), greenhouse films and mulch films. Complies with food contact approval.\n'}], 'attributes': {'ss': 'Masterbatch'}}
+2022-03-11 18:52:31 [scrapy] INFO: Closing spider (finished)
+2022-03-11 18:52:31 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 269,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11779,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.939704,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 15, 22, 31, 507286),
+ 'httpcompression/response_bytes': 38894,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 54575104,
+ 'memusage/startup': 54575104,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 15, 22, 30, 567582)}
+2022-03-11 18:52:31 [scrapy] INFO: Spider closed (finished)

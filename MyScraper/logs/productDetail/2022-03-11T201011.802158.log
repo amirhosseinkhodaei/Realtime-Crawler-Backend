@@ -1,0 +1,28 @@
+2022-03-11 20:10:12 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-bruggemann-bruggolen-tp-p1810> (referer: None)
+2022-03-11 20:10:12 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-bruggemann-bruggolen-tp-p1810>
+{'products': [{'productName': 'BRUGGOLEN® TP-P1810', 'description': '\nBRUGGOLEN® TP-P1810 by Brüggemann is a flow enhancer and processing auxiliary. It offers superior melt flow in (highly) filled semi-aromatic polyamides (significantly longer spiral flow length), retention of mechanical properties and enables higher glass-fiber content. It provides shorter cycle time, low energy consumption and more complex design. It is easy to dose and disperse. It is suitable for processing by compounding on twin screw extrusion machines. It improves color and appearance of injection molded parts. Recommended dosage level of BRUGGOLEN® TP-P1810 is 0.5-3.0% depending on the polyamide and the desired properties of the finished parts. The shelf life is at least 12 months under (closed, dry, 25°C) standard conditions.\n'}], 'attributes': {None: 'Test Condition', 'Bulk Density': None}}
+2022-03-11 20:10:12 [scrapy] INFO: Closing spider (finished)
+2022-03-11 20:10:12 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 273,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 12522,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.006017,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 11, 16, 40, 12, 834070),
+ 'httpcompression/response_bytes': 44020,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 69652480,
+ 'memusage/startup': 69652480,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 11, 16, 40, 11, 828053)}
+2022-03-11 20:10:12 [scrapy] INFO: Spider closed (finished)
