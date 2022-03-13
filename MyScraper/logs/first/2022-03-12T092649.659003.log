@@ -1,0 +1,28 @@
+2022-03-12 09:26:50 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com/selectors?q=a-basf-irgastab-cable-kv10&indexpage=1> (referer: None)
+2022-03-12 09:26:50 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com/selectors?q=a-basf-irgastab-cable-kv10&indexpage=1>
+{'paginate': {'count': 1, 'total': '1'}, 'products': [{'productName': 'Irgastab® Cable KV10 ', 'supplier': '\nBASF \n', 'description': '\nIrgastab® Cable KV10 by BASF is a high performance, primary (phenolic) antioxidant and heat stabilizer for polyethylene-based wire and cable applications. It provides high efficient processing and...\n', 'url': '/product/a-basf-irgastab-cable-kv10'}]}
+2022-03-12 09:26:50 [scrapy] INFO: Closing spider (finished)
+2022-03-12 09:26:50 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 283,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14509,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.997102,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 12, 5, 56, 50, 685457),
+ 'httpcompression/response_bytes': 45881,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 73531392,
+ 'memusage/startup': 73531392,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 12, 5, 56, 49, 688355)}
+2022-03-12 09:26:50 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,28 @@
+2022-03-12 10:21:11 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-dover-icc-industries-doverphos-54> (referer: None)
+2022-03-12 10:21:11 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-dover-icc-industries-doverphos-54>
+{'products': [{'productName': 'Doverphos® 54', 'description': '\nDoverphos® 54 by Dover (ICC Industries) is trilauryl phosphite (TLP). It can be used as a stabilizer for PVC, LLDPE, HDPE, and other polymers. Complies with FDA indirect food contact clearance in PVC and LLDPE, with certain limitations.\n'}], 'attributes': {'Product Type': '\nAntioxidants > Phosphites\n', 'Chemical Composition': '\nTrilauryl phosphite\n', 'Physical Form': '\nSolid\n', 'Product Status': '\nCOMMERCIAL\n', 'Applications/ Recommended for': '\n'}}
+2022-03-12 10:21:11 [scrapy] INFO: Closing spider (finished)
+2022-03-12 10:21:11 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 277,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11765,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.155023,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 12, 6, 51, 11, 264825),
+ 'httpcompression/response_bytes': 41318,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 82173952,
+ 'memusage/startup': 82173952,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 12, 6, 51, 10, 109802)}
+2022-03-12 10:21:11 [scrapy] INFO: Spider closed (finished)

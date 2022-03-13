@@ -1,0 +1,28 @@
+2022-03-12 09:35:50 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-3b-advantex-ds-8800-11p> (referer: None)
+2022-03-12 09:35:50 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-3b-advantex-ds-8800-11p>
+{'products': [{'productName': 'Advantex® DS 8800-11P', 'description': '\nBoron- and fluoride free glass fiber chopped strand. Acts as a reinforcing agent. It exhibits heat-, ageing-, hydrolysis- and glycolysis resistance. Also exhibits dry-as-molded properties, excellent stiffness, heat stability, feeding behavior and very limited fuzz generation. Allows usage at very high glass fiber loadings (>55%). Used for high temperature thermoplastics such as PSU, PESU, PPS, PEI and PEEK. Applications include automotive (gears, bearing cages, thrust washers, etc.), mechanical engineering (rings, wheels, impellers, flow meter parts, pump components, etc.) and aerospace (gear parts, etc.) industry. Complies with FDA, EC 10/2011 and relative amendments in their more restrictive application after 31.12.2015, BfR LII and ACS norms.\n'}], 'attributes': {'Product Type': '\nFibers > Glass Fibers\n', 'Chemical Composition': '\nBoron- and fluoride free glass fiber chopped strand\n', 'Masterbatch': '\nNo\n'}}
+2022-03-12 09:35:50 [scrapy] INFO: Closing spider (finished)
+2022-03-12 09:35:50 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 267,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11932,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.944398,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 12, 6, 5, 50, 180342),
+ 'httpcompression/response_bytes': 39126,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 73699328,
+ 'memusage/startup': 73699328,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 12, 6, 5, 49, 235944)}
+2022-03-12 09:35:50 [scrapy] INFO: Spider closed (finished)

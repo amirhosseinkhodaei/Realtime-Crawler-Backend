@@ -1,0 +1,28 @@
+2022-03-12 09:23:15 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com//product/a-dover-icc-industries-doverphos-253> (referer: None)
+2022-03-12 09:23:15 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com//product/a-dover-icc-industries-doverphos-253>
+{'products': [{'productName': 'Doverphos® 253', 'description': '\nDoverphos® 253 by Dover (ICC Industries) is a liquid dialkyl phosphite with a high molecular weight and low phosphorus content. Acts as an antioxidant. It can be used as a co-stabilizer in PVC applications with mixed metal stabilizers. Recommended usage of Doverphos® 253 ranges from 0.1 to 3.0%.\n'}], 'attributes': {'Product Type': '\nAntioxidants > Phosphites\n', 'Chemical Composition': '\nDioleyl hydrogen phosphite\n', 'CAS Number': '\n64051-29-2\n', 'Masterbatch': '\nNo\n', 'Physical Form': '\nLiquid\n', 'Appearance': '\nClear\n', 'Product Status': '\nCOMMERCIAL\n', 'Applications/ Recommended for': '\nPVC\n'}}
+2022-03-12 09:23:15 [scrapy] INFO: Closing spider (finished)
+2022-03-12 09:23:15 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 278,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 11804,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.263957,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 12, 5, 53, 15, 444732),
+ 'httpcompression/response_bytes': 41952,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 60657664,
+ 'memusage/startup': 60657664,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 12, 5, 53, 14, 180775)}
+2022-03-12 09:23:15 [scrapy] INFO: Spider closed (finished)

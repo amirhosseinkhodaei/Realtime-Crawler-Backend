@@ -1,0 +1,28 @@
+2022-03-12 09:27:56 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com/selectors/ap-appliances-heaters?q=&indexpage=1> (referer: None)
+2022-03-12 09:27:56 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com/selectors/ap-appliances-heaters?q=&indexpage=1>
+{'paginate': {'count': 1, 'total': '13'}, 'products': [{'productName': 'Multranol® 8114 ', 'supplier': '\nCovestro \n', 'description': '\nMultranol® 8114 by Covestro is a general-purpose aromatic amine-initiated polyether polyol. It is used in variety of insulation applications where flow is important, such as refrigerated...\n', 'url': '/product/m-covestro-multranol-8114'}, {'productName': 'Multranol® 9170 ', 'supplier': '\nCovestro \n', 'description': '\nMultranol® 9170 by Covestro is an amine-initiated polyether polyol used in the manufacturing of rigid polyurethane foams. It acts as a co-polyol in systems where its low viscosity and excellent...\n', 'url': '/product/m-covestro-multranol-9170'}, {'productName': 'Geometal® Black 004 HEX ', 'supplier': '\nGeotech \n', 'description': '\nGeometal® Black 004 HEX by Geotech is a special effect aluminium glitter pigment for the plastic industry. It is a brilliantly colored particle of precision cut aluminium foil. Designed for...\n', 'url': '/product/p-geotech-geometal-black-004-hex'}, {'productName': 'Geometal® Black 008 HEX ', 'supplier': '\nGeotech \n', 'description': '\nGeometal® Black 008 HEX aluminium glitter by Geotech is a special effect pigment for the plastic industry. It is a brilliantly colored particle of precision cut aluminium foil. Designed for...\n', 'url': '/product/p-geotech-geometal-black-008-hex'}, {'productName': 'Geometal® Black 015 HEX ', 'supplier': '\nGeotech \n', 'description': '\nGeometal® Black 015 HEX aluminium glitter is a special effect pigment by Geotech. It is a brilliantly colored particle of precision cut aluminium foil. Used as color flakes in plastic applications...\n', 'url': '/product/p-geotech-geometal-black-015-hex'}, {'productName': 'Geometal® Silver 004 HEX ', 'supplier': '\nGeotech \n', 'description': '\nGeometal® Silver 004 HEX by Geotech is a special effect aluminium glitter pigment for the plastic industry. It is a brilliantly colored particle of precision cut aluminium foil, used as color flakes...\n', 'url': '/product/p-geotech-geometal-silver-004-hex'}, {'productName': 'Geometal® Silver 008 HEX ', 'supplier': '\nGeotech \n', 'description': '\nGeometal® Silver 008 HEX by Geotech is a special effect aluminium glitter pigment. It is a brilliantly colored particle of precision cut aluminium foil. It is characterized by high temperature...\n', 'url': '/product/p-geotech-geometal-silver-008-hex'}, {'productName': 'YD -1050 ', 'supplier': '\nHebei Yadong Chemical Group \n', 'description': '\nYD -1050 by Hebei Yadong Chemical Group is a high functionality polyether polyol. Designed for the manufacture of rigid foams. Recommended for refrigerator, freezer, dish washer and solar heater...\n', 'url': '/product/m-hebei-yadong-chemical-group-yd-1050'}, {'productName': 'PL-258B ', 'supplier': '\nJiangsu Poly New Materials Technology \n\n', 'description': '\nHigh heat resistance, high impact flame retardant. Suitable for heating appliances shell, hair dryer, iron, heaters, microwave ovens, car parts, etc...\n', 'url': '/product/a-jiangsu-poly-new-materials-technology-pl-258b'}, {'productName': 'PL-258D ', 'supplier': '\nJiangsu Poly New Materials Technology \n', 'description': '\nHigh heat resistance, high impact flame retardant. Suitable for heating appliances shell, hair dryer, iron, heaters, microwave ovens, car parts, etc...\n', 'url': '/product/a-jiangsu-poly-new-materials-technology-pl-258d'}, {'productName': 'PL-258E ', 'supplier': '\nJiangsu Poly New Materials Technology \n', 'description': '\nHigh heat resistance, high impact flame retardant. Suitable for heating appliances shell, hair dryer, iron, heaters, microwave ovens, car parts, etc...\n', 'url': '/product/a-jiangsu-poly-new-materials-technology-pl-258e'}, {'productName': 'Niax™ catalyst C-5 ', 'supplier': '\nMomentive Performance Materials \n', 'description': '\nNiax™ catalyst C-5 by Momentive is a tertiary amine (N, N, N\', N\', N" Pentamethyldiethylene triamine). The catalyst is characterized as a strong blowing catalyst while maintaining a good gel...\n', 'url': '/product/a-momentive-performance-materials-niax-catalyst-c-5'}]}
+2022-03-12 09:27:56 [scrapy] INFO: Closing spider (finished)
+2022-03-12 09:27:56 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 279,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 15323,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.971325,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 12, 5, 57, 56, 995799),
+ 'httpcompression/response_bytes': 61017,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 73531392,
+ 'memusage/startup': 73531392,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 12, 5, 57, 56, 24474)}
+2022-03-12 09:27:56 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,28 @@
+2022-03-12 09:20:59 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com/selectors/ap-aerospace-aircrafts?q=antioxidant&indexpage=1> (referer: None)
+2022-03-12 09:20:59 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com/selectors/ap-aerospace-aircrafts?q=antioxidant&indexpage=1>
+{'paginate': {'count': 1, 'total': '1'}, 'products': [{'productName': 'Butylated hydroxytoluene ( BHT - FCC ) ', 'supplier': '\nAvalon Chemicals \n', 'description': '\n2,6 ditertiary butyl 4 methyl phenol. Acts as antioxidant and emulsifier. It is a fat soluble organic compound used in petroleum waxes, plastics and polyolefins. It is also applicable in...\n', 'url': '/product/a-avalon-chemicals-butylated-hydroxytoluene-bht-fcc'}]}
+2022-03-12 09:20:59 [scrapy] INFO: Closing spider (finished)
+2022-03-12 09:20:59 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 291,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 14384,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.905051,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 12, 5, 50, 59, 682327),
+ 'httpcompression/response_bytes': 45107,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 52555776,
+ 'memusage/startup': 52555776,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 12, 5, 50, 58, 777276)}
+2022-03-12 09:20:59 [scrapy] INFO: Spider closed (finished)

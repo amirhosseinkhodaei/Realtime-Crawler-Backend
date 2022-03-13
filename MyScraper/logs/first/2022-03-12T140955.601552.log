@@ -1,0 +1,28 @@
+2022-03-12 14:09:56 [scrapy] DEBUG: Crawled (200) <GET https://polymer-additives.specialchem.com/selectors?q=amir&indexpage=1> (referer: None)
+2022-03-12 14:09:56 [scrapy] DEBUG: Scraped from <200 https://polymer-additives.specialchem.com/selectors?q=amir&indexpage=1>
+{'paginate': {'count': 1, 'total': '0'}, 'products': []}
+2022-03-12 14:09:56 [scrapy] INFO: Closing spider (finished)
+2022-03-12 14:09:56 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 261,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 12764,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.848042,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 3, 12, 10, 39, 56, 461072),
+ 'httpcompression/response_bytes': 38641,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 7,
+ 'memusage/max': 63860736,
+ 'memusage/startup': 63860736,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 3, 12, 10, 39, 55, 613030)}
+2022-03-12 14:09:56 [scrapy] INFO: Spider closed (finished)
